@@ -7,6 +7,7 @@
 header {
     background-color: rgb(116, 0, 0);
     background-size: cover;
+    height: 8rem;
 }
 
 header h1{
@@ -17,19 +18,20 @@ header h1{
     font-family: homoarakhn, sans-serif;   
 }
 
+body{
+    background-color: rgb(4, 4, 59);
+    background-size: cover;
+}
+
 #img{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding: 0 0 1rem 0;
-
 }
 
 main {
     width: 100%;
     height: 100%;
-    background-color: rgb(4, 4, 59);
-    background-size: cover;
 
 }
 
@@ -38,6 +40,8 @@ main {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 section div#texto {
@@ -60,34 +64,45 @@ h3 {
     display: flex;
 }
 
-#button {
+#divbtn {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
-#but{
-    background-color: rgb(116, 0, 0);
-  color: white;
-  border-radius: 8px;
-  font-family: roboto;
-  font-size: 1rem;
-  padding: 0.4rem;
-}
-
-footer {
-    background-color: rgb(4, 4, 59);
-    color: white;
+button {
+    background: rgb(116, 0, 0);
+    color: #fff;
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
     font-family: roboto;
-    padding: 1rem;
-    text-align: center;
+    font-size: 1rem;
+  }
+
+button:hover {
+    cursor: pointer;
+    background: rgb(179, 2, 2);
+    transition: 0.3s;
+  }
+
+  footer{
+    background-color: rgb(116, 0, 0);
+    display: flex;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    height: 8vh;
+    font-size: 0.8rem;
 }
 
 footer a{
     color: gray;
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 footer a:hover{
